@@ -1,0 +1,9 @@
+pip>=24.0
+setuptools>=65.5.1
+wheel>=0.38.0
+streamlit==1.41.0
+numpy==2.3.0
+pandas==2.3.0
+plotly==5.18.0
+scikit-learn==1.7.0
+textblob==0.17.1 

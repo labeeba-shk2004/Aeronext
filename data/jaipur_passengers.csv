@@ -1,0 +1,6 @@
+passenger_id,segment,age_group,nationality,flight_type,arrival_time,departure_time,dwell_time_minutes,terminal,gate_area,total_spend,items_purchased,app_user,loyalty_member,satisfaction_score
+JAI_001,leisure,25-34,Indian,domestic,2024-01-15 07:45:00,2024-01-15 10:30:00,165,Domestic,A,650,2,False,False,3.9
+JAI_002,business,35-44,Indian,domestic,2024-01-15 08:30:00,2024-01-15 11:15:00,165,Domestic,B,480,1,True,True,4.1
+JAI_003,leisure,45-54,Foreign,international,2024-01-15 09:00:00,2024-01-15 12:45:00,225,International,C,1200,3,False,False,4.3
+JAI_004,leisure,18-24,Indian,domestic,2024-01-15 10:15:00,2024-01-15 12:30:00,135,Domestic,A,320,1,True,False,3.4
+JAI_005,leisure,25-34,Indian,domestic,2024-01-15 11:00:00,2024-01-15 13:45:00,165,Domestic,B,780,2,False,True,3.8

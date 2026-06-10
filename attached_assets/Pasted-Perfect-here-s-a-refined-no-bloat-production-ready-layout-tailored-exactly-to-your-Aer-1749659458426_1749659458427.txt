@@ -1,0 +1,175 @@
+Perfect — here's a **refined, no-bloat, production-ready layout** tailored **exactly** to your **AeroNext Phase 5 pilot proposal**, with the right level of AI/ML depth, simulation clarity, and stakeholder impact.
+
+---
+
+# 📁 **Project Name: AeroNexus AI**
+
+> *An AI-driven simulation platform for non-aeronautical revenue uplift & passenger experience optimization at Indian airports.*
+
+---
+
+## ✅ CORE PRINCIPLES:
+
+* Focused only on **DEL** and **JAI** airports
+* Includes **ML models where needed**
+* Uses **Streamlit** for a clean KPI + model result dashboard
+* Mirrors your proposal's impact zones: **Revenue, NPS, Engagement, Personalization, Scalability**
+
+---
+
+## 🗂️ Final Folder Structure
+
+```
+aeronexus_ai/
+├── app.py                        # Streamlit main entry file
+│
+├── config/
+│   └── airport_profiles.py       # Static profiles for DEL & JAI (footfall, segments, revenue, dwell time)
+│
+├── data/
+│   ├── delhi_passengers.csv      # Simulated passengers for DEL
+│   ├── jaipur_passengers.csv     # Simulated passengers for JAI
+│   ├── transactions.csv          # Simulated purchase logs
+│   ├── feedback.csv              # Free-form feedback for sentiment analysis
+│   └── products.csv              # Retail/F&B product catalog with prices
+│
+├── models/
+│   ├── recommender.py            # Collaborative filtering model (Surprise or LightFM)
+│   ├── dynamic_pricing.py        # Q-Learning agent for price suggestions
+│   └── sentiment_nlp.py          # NLP model (TextBlob or HuggingFace-based)
+│
+├── dashboard/
+│   ├── overview_tab.py           # DEL/JAI config loader + core stats
+│   ├── recommendation_tab.py     # Streamlit tab for offer personalization
+│   ├── pricing_tab.py            # Pricing engine + chart
+│   ├── sentiment_tab.py          # Feedback → NPS chart
+│   └── comparison_tab.py         # Side-by-side DEL vs JAI metrics
+│
+├── simulation/
+│   ├── data_generator.py         # Generates fake passengers/transactions
+│   └── feedback_simulator.py     # Generates sentiment-labeled feedback text
+│
+├── utils/
+│   ├── plot_utils.py             # Reusable chart functions (line/bar/gauges)
+│   └── kpi_calculator.py         # Computes NPS, revenue uplift %, dwell gain
+│
+├── requirements.txt              # All necessary libraries (streamlit, pandas, surprise, etc.)
+├── README.md                     # Explains how this matches the AeroNext pilot proposal
+└── .streamlit/
+    └── config.toml               # Optional: theme customization
+```
+
+---
+
+## 🎯 Streamlit Tabs (Each Tied to a Proposal Objective)
+
+### 1. 🏁 **Overview**
+
+* Airport selector: DEL or JAI
+* Profile info: passenger volume, retail density, target revenue
+* Baseline vs target revenue per passenger
+* Dwell time and NPS baseline
+
+---
+
+### 2. 🧠 **AI Recommendations (Retail Personalization)**
+
+* Input: Passenger type (business/leisure), time of day
+* Model: Collaborative filtering engine
+* Output: Top 3 offer suggestions
+* **KPI**: Conversion lift estimate (based on product affinity)
+
+---
+
+### 3. 💸 **Dynamic Pricing**
+
+* Input sliders: Crowd level (low/med/high), time of day
+* Model: Q-learning price agent
+* Output: Suggested price adjustment (+/- %)
+* Graph: Price vs revenue simulation over 24h
+* **KPI**: % uplift from base pricing
+
+---
+
+### 4. 💬 **Sentiment & NPS**
+
+* Input: Free text feedback or simulate
+* Model: TextBlob (or Transformers)
+* Output: Sentiment + mapped NPS category
+* Graph: Real-time NPS trend (based on feedback flow)
+* **KPI**: Target NPS improvement (+10 pts)
+
+---
+
+### 5. ⚖️ **DEL vs JAI Comparison**
+
+* Side-by-side bar graphs for:
+
+  * Revenue uplift
+  * Dwell time change
+  * NPS trend
+  * App engagement
+* Shows **why the AI works differently in a Tier-1 vs Tier-2 airport**
+
+---
+
+## ✅ Minimum ML Required (But Real)
+
+| Model           | Purpose                         | Tool                                  |
+| --------------- | ------------------------------- | ------------------------------------- |
+| Recommender     | Personalized retail/F\&B offers | `Surprise` or `LightFM`               |
+| Dynamic Pricing | Price optimization per context  | Q-learning (NumPy or `gym`)           |
+| Sentiment → NPS | Feedback NLP                    | `TextBlob` (or HuggingFace for bonus) |
+
+---
+
+## 🧪 Simulated Data Strategy
+
+Generate CSVs with:
+
+* Passenger segment ratios (55/45 DEL, 30/70 JAI)
+* Random product interactions (transaction matrix)
+* Feedback pool with 3 sentiment levels and NPS mappings (Detractor, Passive, Promoter)
+
+---
+
+## 🧠 How This Aligns with Your Proposal
+
+| Proposal KPI               | Where It Shows                        |
+| -------------------------- | ------------------------------------- |
+| ₹312 → ₹390 uplift         | Revenue tab, comparison tab           |
+| NPS +10                    | Sentiment tab                         |
+| Retail uplift via offers   | Recommender tab                       |
+| Dynamic pricing model      | Pricing tab                           |
+| DEL vs JAI contrast        | Comparison tab                        |
+| Scalable, AI-driven design | Modular logic, config-driven profiles |
+
+---
+
+## ❌ What’s *Intentionally Excluded* (Not Needed)
+
+* No IoT/thermal sensor integrations
+* No computer vision (YOLOv8) — just simulated crowd level
+* No login/auth
+* No unnecessary chatbot or passenger mobile UI (AirMate-style)
+
+---
+
+## 🧠 Final Verdict
+
+This version:
+
+* ✅ **Reflects your pilot 1:1**
+* ✅ Uses **real, minimal ML**
+* ✅ Simulates **real KPIs that airports care about**
+* ✅ Is focused, modular, explainable, and ready for demo or scaling
+
+---
+
+Would you like me to generate:
+
+* `requirements.txt`?
+* Prebuilt simulated CSVs?
+* Starter `app.py` with the full tab layout stubbed?
+
+Say the word and I’ll deliver the next step in your demo-ready project.

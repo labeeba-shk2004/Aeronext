@@ -1,0 +1,26 @@
+feedback_id,passenger_id,airport_code,feedback_text,sentiment_score,nps_score,category,timestamp,channel
+FB_001,DEL_001,DEL,"Excellent shopping experience! The personalized offers were very relevant and the digital signage helped me navigate easily.",0.8,9,promoter,2024-01-15 15:30:00,app
+FB_002,DEL_002,DEL,"Long queues at security and limited food options. App was helpful but could be improved.",0.2,6,passive,2024-01-15 16:00:00,survey
+FB_003,DEL_003,DEL,"Outstanding service and great variety of shops. The lounge recommendations were spot on!",-0.1,8,promoter,2024-01-15 16:30:00,app
+FB_004,JAI_001,JAI,"Nice airport but limited shopping options. Food court was good though.",0.3,7,passive,2024-01-15 13:00:00,survey
+FB_005,JAI_002,JAI,"Quick and efficient. Could use more retail options but overall satisfied.",0.4,7,passive,2024-01-15 14:00:00,app
+FB_006,DEL_004,DEL,"The new digital wayfinding system is fantastic! Made my connection much smoother.",0.7,9,promoter,2024-01-16 09:15:00,app
+FB_007,DEL_005,DEL,"Food prices are too high and seating areas are crowded. Need more space.",-0.3,5,detractor,2024-01-16 10:30:00,survey
+FB_008,DEL_006,DEL,"Great shopping experience with helpful staff. The app recommendations were perfect!",0.8,9,promoter,2024-01-16 11:45:00,app
+FB_009,DEL_007,DEL,"Clean facilities and good signage. Could improve the waiting areas.",0.4,7,passive,2024-01-16 13:20:00,survey
+FB_010,DEL_008,DEL,"Excellent lounge service and comfortable seating. Will definitely use again.",0.9,10,promoter,2024-01-16 14:30:00,app
+FB_011,JAI_003,JAI,"Small but efficient airport. Good food options and clean facilities.",0.5,8,passive,2024-01-16 08:45:00,app
+FB_012,JAI_004,JAI,"Limited shopping but great local food options. Staff was very friendly.",0.6,8,passive,2024-01-16 10:15:00,survey
+FB_013,JAI_005,JAI,"Quick check-in and security. Could use more charging points.",0.3,7,passive,2024-01-16 11:30:00,app
+FB_014,JAI_006,JAI,"Nice regional airport with good connectivity. Food prices are reasonable.",0.5,8,passive,2024-01-16 13:45:00,survey
+FB_015,JAI_007,JAI,"Clean and well-maintained. Need more retail options though.",0.4,7,passive,2024-01-16 15:00:00,app
+FB_016,DEL_009,DEL,"The new retail area is amazing! Great variety and good prices.",0.8,9,promoter,2024-01-17 08:30:00,app
+FB_017,DEL_010,DEL,"Security lines are too long. Need more staff during peak hours.",-0.4,4,detractor,2024-01-17 09:45:00,survey
+FB_018,DEL_011,DEL,"Excellent digital experience. The app made everything so convenient!",0.9,10,promoter,2024-01-17 11:00:00,app
+FB_019,DEL_012,DEL,"Good facilities but food options could be better. Staff was helpful.",0.3,7,passive,2024-01-17 12:15:00,survey
+FB_020,DEL_013,DEL,"Great shopping experience with personalized offers. Will visit again!",0.8,9,promoter,2024-01-17 13:30:00,app
+FB_021,JAI_008,JAI,"Efficient regional airport. Good local food and clean facilities.",0.6,8,passive,2024-01-17 09:00:00,app
+FB_022,JAI_009,JAI,"Limited shopping but great service. Staff was very accommodating.",0.5,8,passive,2024-01-17 10:30:00,survey
+FB_023,JAI_010,JAI,"Quick and easy process. Could use more seating areas.",0.4,7,passive,2024-01-17 11:45:00,app
+FB_024,JAI_011,JAI,"Nice small airport. Food court has good options.",0.5,8,passive,2024-01-17 13:00:00,survey
+FB_025,JAI_012,JAI,"Clean and well-organized. Need more retail stores.",0.4,7,passive,2024-01-17 14:15:00,app

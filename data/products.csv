@@ -1,0 +1,11 @@
+product_id,name,category,base_price,airport_code,outlet_name,description,margin_percent,stock_level,popularity_score
+PROD_001,Masala Chai,Food & Beverage,125.0,DEL,Café Coffee Day,Premium Indian spiced tea,65.0,500,8.5
+PROD_002,Butter Chicken Meal,Food & Beverage,450.0,DEL,Punjab Grill,Signature North Indian dish,70.0,100,9.2
+PROD_003,Smartphone Charger,Electronics & Gadgets,800.0,DEL,Croma,Universal fast charger,45.0,50,7.8
+PROD_004,Designer Scarf,Fashion & Accessories,1200.0,DEL,Shoppers Stop,Silk printed scarf,80.0,25,6.5
+PROD_005,Coffee Blend,Food & Beverage,180.0,DEL,Starbucks,House special blend,60.0,200,8.0
+PROD_006,Rajasthani Handicraft,Souvenirs & Gifts,650.0,JAI,Jaipur Crafts,Authentic hand-painted item,90.0,30,8.8
+PROD_007,Dal Baati Churma,Food & Beverage,320.0,JAI,Rajasthani Rasoi,Traditional Rajasthani meal,65.0,80,9.0
+PROD_008,Silver Jewelry,Fashion & Accessories,2500.0,JAI,Gem Palace,Handcrafted silver jewelry,85.0,15,7.5
+PROD_009,Herbal Tea,Food & Beverage,95.0,JAI,Tea Junction,Organic herbal blend,70.0,150,7.2
+PROD_010,Travel Pillow,Electronics & Gadgets,450.0,JAI,Travel Essentials,Memory foam travel pillow,50.0,40,6.8

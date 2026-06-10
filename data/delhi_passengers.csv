@@ -1,0 +1,6 @@
+passenger_id,segment,age_group,nationality,flight_type,arrival_time,departure_time,dwell_time_minutes,terminal,gate_area,total_spend,items_purchased,app_user,loyalty_member,satisfaction_score
+DEL_001,business,35-44,Indian,domestic,2024-01-15 08:30:00,2024-01-15 11:45:00,195,T3,A,1250,3,True,True,4.2
+DEL_002,leisure,25-34,Indian,international,2024-01-15 09:15:00,2024-01-15 13:20:00,245,T3,B,890,2,False,False,3.8
+DEL_003,business,45-54,Foreign,international,2024-01-15 10:00:00,2024-01-15 14:30:00,270,T3,C,1580,4,True,True,4.5
+DEL_004,leisure,18-24,Indian,domestic,2024-01-15 11:30:00,2024-01-15 14:15:00,165,T3,A,420,1,True,False,3.5
+DEL_005,business,35-44,Indian,domestic,2024-01-15 12:00:00,2024-01-15 15:45:00,225,T3,B,950,2,True,True,4.0

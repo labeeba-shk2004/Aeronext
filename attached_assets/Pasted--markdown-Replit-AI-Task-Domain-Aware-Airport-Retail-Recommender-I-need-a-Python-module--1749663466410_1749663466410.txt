@@ -1,0 +1,78 @@
+````markdown
+# Replit AI Task: Domain-Aware Airport Retail Recommender
+
+I need a **Python module** implementing a **domain-aware collaborative filtering recommender** for my AeroNexus AI project. We use **LightFM** with “domain” (retail, F&B, lounge) as an item feature and then filter by domain at inference.
+
+---
+
+## File: `models/recommender.py`
+
+1. **Dependencies**  
+   ```python
+   import numpy as np
+   import pandas as pd
+   import pickle
+   from lightfm import LightFM
+   from lightfm.data import Dataset
+````
+
+2. **Class: `DomainRecommender`**
+
+   * **`__init__(self, no_components=32, learning_rate=0.05, loss='warp')`**
+
+     * Initialize `self.model = LightFM(...)` and `self.dataset = Dataset()`.
+
+3. **Method: `fit(self, interactions_df, products_df)`**
+
+   * `interactions_df` has columns: `user_id`, `item_id`, `rating`.
+   * `products_df` has columns: `item_id`, `domain` (values: `"retail"`, `"f&b"`, `"lounge"`).
+   * Call `self.dataset.fit(users, items, item_features=['domain'])`.
+   * Build interactions:
+
+     ```python
+     (interactions, weights) = self.dataset.build_interactions([
+         (row.user_id, row.item_id, row.rating) 
+         for row in interactions_df.itertuples()
+     ])
+     ```
+   * Build item features:
+
+     ```python
+     itf = self.dataset.build_item_features([
+         (row.item_id, [row.domain]) 
+         for row in products_df.itertuples()
+     ])
+     ```
+   * Train:
+
+     ```python
+     self.model.fit(interactions, sample_weight=weights, item_features=itf,
+                    epochs=30, num_threads=4)
+     ```
+
+4. **Method: `recommend(self, user_id, domain, n=5)`**
+
+   * Map external IDs to internal via `self.dataset.mapping()`.
+   * Predict scores for all items:
+
+     ```python
+     scores = self.model.predict(uidx, np.arange(n_items), item_features=itf)
+     ```
+   * Filter items by `products_df.domain == domain`.
+   * Return top-n `item_id` in original ID space.
+
+5. **Methods: `save(self, path)`** and `@classmethod load(cls, path)`\*\*
+
+   * Persist both `self.model` and `self.dataset` with `pickle`.
+
+---
+
+## Deliverable Criteria
+
+* The module runs standalone when imported in a Streamlit app.
+* Contains full `DomainRecommender` class with `fit`, `recommend`, `save`, and `load`.
+* Handles domain filtering internally.
+* Includes inline docstrings and type hints for clarity.
+* Ready to train on CSVs and call from `app.py`.
+
+Please generate the complete `models/recommender.py` file per above specs.\`\`\`

@@ -1,0 +1,6 @@
+transaction_id,passenger_id,airport_code,product_id,category,quantity,unit_price,total_amount,timestamp,payment_method,discount_applied,outlet_location
+TXN_001,DEL_001,DEL,PROD_001,Food & Beverage,2,125.0,250.0,2024-01-15 09:15:00,Card,0.0,T3-Central Plaza
+TXN_002,DEL_001,DEL,PROD_015,Electronics & Gadgets,1,800.0,800.0,2024-01-15 10:30:00,Card,50.0,T3-Departures
+TXN_003,DEL_001,DEL,PROD_025,Fashion & Accessories,1,200.0,200.0,2024-01-15 11:00:00,UPI,20.0,T3-Gate Lounge
+TXN_004,DEL_002,DEL,PROD_005,Food & Beverage,1,180.0,180.0,2024-01-15 11:45:00,Cash,0.0,T3-Food Court
+TXN_005,DEL_002,DEL,PROD_030,Souvenirs & Gifts,3,240.0,720.0,2024-01-15 12:30:00,Card,10.0,T3-Departures
